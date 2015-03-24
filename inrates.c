@@ -26,5 +26,9 @@ int main() {
 	i = z.tv_nsec;
     }
     for (i=0;i<1001;i++) if (ints[i]) printf("%u %llu\n", i+1, ints[i]);
+
+    free(buffer);
+    
+    return 0;
 }
 
